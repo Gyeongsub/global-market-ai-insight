@@ -3,6 +3,16 @@
 Updated 2026-11-01. This is the current scope and next-work map, not a new
 deployment approval. [agent.md](agent.md) defines execution rules.
 
+**Source release completed November 1:** the owner approved the reviewed 841-file
+candidate, including its disclosed residual development-tool advisory. It was
+published to [Gyeongsub/global-market-ai-insight](https://github.com/Gyeongsub/global-market-ai-insight)
+as initial commit `db02fa4b61061c12cb7820b80eb2dfb8234d0486`. A fresh remote clone
+matched every candidate file and its source fingerprint. The candidate passed
+90 steps, 1,905 tests and one existing skip after an isolated frozen install.
+This follow-up updates completion documents only, not implementation or dependency
+bytes. Personal exercises and the optional historical AWS experiments remain
+separate; there is no new cloud deployment, hosted website or CI workflow.
+
 ## 1. Current product and scope precedence
 
 The approved private portfolio has two active paths:
@@ -80,9 +90,9 @@ Google search. Model output is educational, not personalized investment advice.
 | Search companion | Three locales, fixed questions, manual handoff, copy/fallback, keyboard and narrow-layout review | Not ChatGPT result quality, complete accessibility certification or live quote integration |
 | Private AWS lab | October 31 English restricted-role browser analysis, one request after refresh/reload, cleanup and independent deletion | Not every locale/mobile on the restricted role or synthetic Fargate integration |
 | IAM boundaries | Dated forbidden reads, alternate-principal and compute rejection; successful analysis followed by explicit time-window denial | Not universal action/principal proof or revocation of all sessions |
-| Local quality | November 1 patched working-tree gate: 90 steps; 1,905 passes, one existing skip; 33 loopback checks closed | Later documentation and the transformed public copy need their exact frozen-install proof; earlier clone receipts are not substitutes |
-| Dependencies | November 1 approved refresh: one moderate dev-only minimatch finding, no declared-runtime match; exact-version backport passed focused and working-tree tests | Public-copy frozen verification and final residual-risk decision; registry matches are retained |
-| Publication | Candidate inventory and private image/SBOM inspection; no upload | Exact artifact/privacy/history/rights/notice review and explicit upload consent |
+| Local quality | November 1 public-copy frozen gate: 90 steps; 1,905 passes, one existing skip; 33 loopback checks closed; remote clone bytes matched | Completion-only documentation changes are checked separately; no new live AWS permit or remote CI claim |
+| Dependencies | November 1 approved refresh: one moderate dev-only minimatch finding, no declared-runtime match; exact-version backport passed public-copy frozen tests | Owner accepted the disclosed source-release residual risk; registry finding remains visible and needs future review |
+| Publication | Reviewed source-only candidate approved, uploaded and remotely cloned with identical bytes; noreply author | Future changes and built-artifact redistribution need their own proportionate review; no remote CI |
 
 An earlier service-test failure has no established cause. Later passes do not
 explain it. The reproduced October 31 Windows junction permission failure is a
@@ -93,7 +103,12 @@ Evidence: [restricted browser](docs/evidence/SYNTHETIC_RESTRICTED_BROWSER_2026-1
 [lint containment](docs/evidence/LINT_EXECUTION_BOUNDARY_2026-11-01.md),
 [publication artifacts](docs/evidence/PUBLICATION_ARTIFACT_REVIEW_2026-10-31.md).
 
-## 6. Next work, in priority order
+## 6. Release sequence and subsequent work
+
+The implementation, portfolio and source publication sequence below is complete
+for the approved first release. Retain it as a checklist for future revisions;
+it does not require more autonomous cloud work now. The next user-led activity
+is portfolio reading and optional practice, with fresh authorization before AWS use.
 
 1. Complete the Korean portfolio narrative and evidence navigation using the
    accepted private implementation. Owner exercises occur after release, not as
@@ -172,9 +187,9 @@ reusable live permits. No historical checkbox was silently marked completed.
 - [x] Dated English restricted-role browser analysis and independent cleanup.
 - [x] Local tests/build and focused browser review; limitations explicitly retained.
 - [x] API/IAM/cost learning materials and shutdown instructions available locally.
-- [ ] Final current-candidate security/privacy/dependency/notice review.
-- [ ] Final explicit GitHub upload approval and publication (deferred, not done).
-- [ ] Finished portfolio delivered with the verified public source revision.
+- [x] Final source-candidate security/privacy/dependency/notice review, with disclosed residual advisory.
+- [x] Final explicit GitHub upload approval, publication and remote byte verification.
+- [x] Korean portfolio included in the verified public source revision; owner practice follows separately.
 
 All-language restricted-cloud/mobile acceptance, remote CI, provider/Fargate
 end-to-end, CloudFront/custom domain and Phase 13 service comparison remain
@@ -189,8 +204,8 @@ security evidence. No claim of current market prices, unrestricted AI analysis,
 fully completed historical AWS experiments or account-wide risk elimination.
 
 Private functional acceptance and public release are different milestones.
-The former has dated evidence; the latter remains gated by final artifact,
-privacy, dependency and rights review plus the owner's explicit upload approval.
+Both have dated evidence for the narrow current scope. November 1 publication
+followed candidate privacy, dependency and rights review and explicit owner approval.
 For the current autonomous run, completion means both milestones and the finished
 portfolio, excluding the owner's later practice. Continue meaningful in-scope
 work until that completion, a user stop or weekly remaining usage at/below 20%.

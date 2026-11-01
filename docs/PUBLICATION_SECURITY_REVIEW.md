@@ -1,15 +1,20 @@
 # Publication security review
 
-This is a local triage record, not approval to publish. The repository has no
-Git remote and the user has chosen to publish only after the product is
-complete and a final security, privacy, licensing and cost review is approved.
+The November 1 source-only candidate completed review and explicit owner approval,
+then was published as `db02fa4b61061c12cb7820b80eb2dfb8234d0486` in
+[Gyeongsub/global-market-ai-insight](https://github.com/Gyeongsub/global-market-ai-insight).
+The 841-file remote clone matched the candidate byte for byte; the commit uses
+GitHub noreply attribution. The original private working repository and its
+history were not uploaded. Dated earlier findings below remain historical records,
+not claims that built artifacts or every future change are cleared.
 
 **Current source-only review, 2026-11-01:** the approved fresh 392-identity npm
 lookup retains one moderate advisory matching minimatch 3.1.5 and 10.2.6 in
 development tooling, with zero declared-runtime matches. The 10.2.6 compatible
 backport is implemented and locally tested; the registry finding is not hidden.
-Final exact-copy frozen verification and the owner's residual-risk/upload
-decision remain separate. [Patch, refresh and limits](evidence/MINIMATCH_BACKPORT_2026-11-01.md).
+Exact-copy frozen verification passed 90 steps / 1,905 tests / one existing skip.
+The owner accepted the disclosed development-tool residual risk for this source
+release. [Patch, refresh and limits](evidence/MINIMATCH_BACKPORT_2026-11-01.md).
 
 The first source-only projection contains 841 files and 46 retained review
 findings: 33 cloud-identifier shapes, eight email shapes and five personal-path

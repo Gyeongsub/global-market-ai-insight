@@ -1,5 +1,22 @@
 # Release readiness — current scope and dated checkpoints
 
+## 2026-11-01 source-only release completed
+
+The owner approved the reviewed 841-file source/tests/portfolio candidate,
+including the explicitly disclosed development-tool advisory. Initial public
+commit `db02fa4b61061c12cb7820b80eb2dfb8234d0486` is available at
+[GitHub](https://github.com/Gyeongsub/global-market-ai-insight). A new remote clone
+matched the candidate byte for byte, including its clean cover. Its isolated
+frozen installation passed 90 steps / 1,905 tests / one existing skip. Final
+completion-note changes are documentation-only and checked separately.
+
+The 10.2.6 backport does not erase the registry finding or clear all legacy
+patterns. No containers/builds/private records, hosted site, automatic workflow,
+new AWS deployment or new model call are part of this release. User exercises
+and optional historical experiments remain separate. The following checkpoints
+describe their original dates, not outstanding mandatory gates for this source
+release. [Current scope](../plan.md), [Korean portfolio](PORTFOLIO_CASE_STUDY_KO.md).
+
 ## 2026-11-01 local lint containment — advisory still unresolved
 
 Supported standalone and whole-gate lint paths now share fixed scope, scrubbed

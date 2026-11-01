@@ -1,18 +1,23 @@
 # Private portfolio completion map
 
-Updated 2026-11-01. This map separates the current private deliverable from
-historical cloud experiments and later public release. It is not a percentage
-estimate or an account-wide security certification.
+Updated 2026-11-01. The approved source-only release and Korean portfolio are
+[public on GitHub](https://github.com/Gyeongsub/global-market-ai-insight), initial
+commit `db02fa4b61061c12cb7820b80eb2dfb8234d0486`. Its 841 files matched the
+reviewed candidate after remote cloning. An isolated frozen install passed
+90 steps / 1,905 tests / one existing skip. Owner practice is now a separate
+next activity, not an unfinished implementation prerequisite. This map separates
+the current private app from historical experiments; it is not an account-wide
+security certification. Older revision counts below retain their dated scope.
 
 | Current deliverable | Verified evidence | Remaining boundary |
 | --- | --- | --- |
 | Multilingual search companion | Fixed symbols/questions, explicit manual handoff, three-language notices, SPCX safeguards, local browser review | ChatGPT answers/search availability are outside this app; no automatic submission or answer import |
 | Real AWS synthetic analysis | Temporary model-only role, one English QLD analysis, unchanged count after refresh/reload, explicit close and independent deletion | Not live prices, arbitrary prompts, every language on the new role, or Fargate integration |
-| Role isolation and expiry | Exact forbidden read requests, alternate-principal rejection, EC2 RunTask denial, successful analysis then post-window explicit denial | Dated narrow tests, not proof that every possible principal/action is blocked |
-| Reproducibility | Restricted-browser revision: matching current/frozen-clone 90-step gates, 1,874 passes / one skip. Publication-inventory revision: matching 1,888 / one skip. Later advisory/docs revision: current-only 1,891 / one skip | Exact hashes differ between revisions; final addenda are separately checked. A separate older service-test failure remains unexplained; published repository clone and remote CI not run |
+| Role isolation and expiry | Exact forbidden read requests, alternate-principal rejection, ECS RunTask denial, successful analysis then post-window explicit denial | Dated narrow tests, not proof that every possible principal/action is blocked |
+| Reproducibility | Public candidate: isolated frozen install and local Git clone, 90 steps / 1,905 passes / one skip; published clone byte-identical | Completion documentation checked separately. An older service-test failure remains unexplained; remote CI not configured |
 | Learning material | Korean API/IAM/STS/cost-flow guide, runbook and demo script updated to the restricted entry | Reading the guide is not evidence that the user personally completed its exercises |
 | Shutdown discipline | Automatic owned-role cleanup plus independent reads; disabled provider execution/display, OPEN v11 and idle compute | A later session needs fresh checks; retained storage and delayed billing remain possible |
-| GitHub/publication | Local candidate scan only; no network/push | Final history, privacy, image metadata/rights, dependency obligations and explicit upload approval still required |
+| GitHub/publication | Reviewed source-only candidate, clean image copy, explicit owner approval, noreply commit and verified remote clone | One disclosed moderate development advisory retained; containers/builds and private records excluded; future changes need review |
 
 November 1: bounded lint and the current/historical plan split passed a new
 90-step frozen-install gate (1,897 passes / one existing skip). Narrow-layout
