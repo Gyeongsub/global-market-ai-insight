@@ -1,0 +1,737 @@
+{
+  "mode": "fixed-public-base-notice-provenance-proof",
+  "observedAtUtc": "2026-10-10T02:07:06.729Z",
+  "dockerfileSha256": "e4992deab8325370de9a911d2e4e0f8f0d0b355c531ab1839c0c8eed11987546",
+  "publicManifestDigest": "sha256:7b0a2b9262b3d1d57e139e08fe11bccb0a7d426ca515eab0cd6abcaf2016ae5c",
+  "publicConfigDigest": "sha256:d094b1aa3d90097a21276aa79ae72f3ddd0a946ee116f80debe5cd6c82450320",
+  "basePlatform": "linux/amd64",
+  "manifestAndConfigDigestsVerified": true,
+  "publicRegistryRequests": 38,
+  "publicBytesRead": 54618478,
+  "awsCalls": 0,
+  "dockerCalls": 0,
+  "filesWritten": 0,
+  "packagesInstalled": 0,
+  "imagePushes": 0,
+  "privateCredentialsSent": false,
+  "privateProjectMetadataSent": false,
+  "layers": [
+    {
+      "digest": "sha256:2cc7ee286bf3a9e6af5f71756d7fc8e22e23ce65fec9047d774511ffcef79fa8",
+      "diffId": "sha256:9486261b5a13f63ca6904b36721527ac8f19df53d300560138d69ae9b4c203de",
+      "compressedBytes": 124525,
+      "expandedBytes": 491520,
+      "entries": 102,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 102
+    },
+    {
+      "digest": "sha256:c172f21841dff4c8cf45cde46589c1c2616cefe7e819965e92e6d3475c428aa0",
+      "diffId": "sha256:621c35e751a51a9a9dc3e80aa0b7fe8be2a93402ea6ccd307d30852cd7776cda",
+      "compressedBytes": 12675,
+      "expandedBytes": 40960,
+      "entries": 17,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 17
+    },
+    {
+      "digest": "sha256:218cf840d0d95a86231eb9d33d26ac8a520a4299c6096cb70a0c2fb2a87c9e0a",
+      "diffId": "sha256:763a77745f27b86cf26b97887b6842d83720e63b1c48848c0ba9ee54e351d63a",
+      "compressedBytes": 288057,
+      "expandedBytes": 1157120,
+      "entries": 528,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 528
+    },
+    {
+      "digest": "sha256:f6069939f718601b38d25ec5ed5631ed047e4da24acec2e252f8f29d251be718",
+      "diffId": "sha256:f0d0eff4c2312a7bd6e21797bdfea5eb35f60e76b555ce2b22794424af2cad36",
+      "compressedBytes": 254668,
+      "expandedBytes": 1331200,
+      "entries": 761,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 761
+    },
+    {
+      "digest": "sha256:d6b1b89eccacc15c2420b2776d72c1dae334a00805ed9af54bf2f71e4d536f28",
+      "diffId": "sha256:275a30dd8ce958b21daa9ad962c6fbc09f98306ee2f486b65c9075dc257b1412",
+      "compressedBytes": 32093,
+      "expandedBytes": 102400,
+      "entries": 17,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 17
+    },
+    {
+      "digest": "sha256:2780920e5dbfbe103d03a583ed75345306e572ec5a48cb10361f046767d9f29a",
+      "diffId": "sha256:4d049f83d9cf21d1f5cc0e11deaf36df02790d0e60c1a3829538fb4b61685368",
+      "compressedBytes": 67,
+      "expandedBytes": 1536,
+      "entries": 1,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 1
+    },
+    {
+      "digest": "sha256:7c12895b777bcaa8ccae0605b4de635b68fc32d60fa08f421dc3818bf55ee212",
+      "diffId": "sha256:af5aa97ebe6ce1604747ec1e21af7136ded391bcabe4acef882e718a87c86bcc",
+      "compressedBytes": 188,
+      "expandedBytes": 2560,
+      "entries": 2,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 2
+    },
+    {
+      "digest": "sha256:3214acf345c0cc6bbdb56b698a41ccdefc624a09d6beb0d38b5de0b2303ecaf4",
+      "diffId": "sha256:6f1cdceb6a3146f0ccb986521156bef8a422cdbb0863396f7f751f575ba308f4",
+      "compressedBytes": 123,
+      "expandedBytes": 2560,
+      "entries": 3,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 3
+    },
+    {
+      "digest": "sha256:52630fc75a18675c530ed9eba5f55eca09b03e91bd5bc15307918bbc1a7e7296",
+      "diffId": "sha256:bd3cdfae1d3fdd83a2231d608969b38b82349777c2fff9a7c12d54f8ac5c9b38",
+      "compressedBytes": 162,
+      "expandedBytes": 2560,
+      "entries": 2,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 2
+    },
+    {
+      "digest": "sha256:dd64bf2dd177757451a98fcdc999a339c35dee5d9872d8f4dc69c8f3c4dd0112",
+      "diffId": "sha256:4cde6b0bb6f50a5f255eef7b2a42162c661cf776b803225dcac9a659e396bb6b",
+      "compressedBytes": 80,
+      "expandedBytes": 1536,
+      "entries": 1,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 1
+    },
+    {
+      "digest": "sha256:b839dfae01f66e15c6a8b63520557ed315bdfe036342fa7a0c537259f10d7a9a",
+      "diffId": "sha256:ad51d0769d16ba578106a177987dfe3d2e02c1668c852b795b2f6b024068242a",
+      "compressedBytes": 351,
+      "expandedBytes": 2048,
+      "entries": 1,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 1
+    },
+    {
+      "digest": "sha256:ebddc55facdc6b1f7e0f30816a5fc7cc62f38abdf76c0a8b0a0ce52085754795",
+      "diffId": "sha256:187cfc6d1e3e8a40a5e64653bcd3239c140807dcf1c09e48021178705a5a6139",
+      "compressedBytes": 311,
+      "expandedBytes": 3072,
+      "entries": 3,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 3
+    },
+    {
+      "digest": "sha256:c4bc6f35ff5e25aa1afe7a148a0b6f10a760f54e298f86a4a4d44b91f1afbfab",
+      "diffId": "sha256:f2392a9484bf6b18f06beaf705b994e31dbb2716c99cf7d03c9c495cd107f364",
+      "compressedBytes": 143338,
+      "expandedBytes": 276480,
+      "entries": 15,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 15
+    },
+    {
+      "digest": "sha256:b96fe2995f90d0ef0bf14f9b4a67b5f4e77d478e6108166e0565adc9efd6e4a3",
+      "diffId": "sha256:8a3b315d45080ecb38e39d42d28e951303c67c2ce7482bcdbbc3b5424be19013",
+      "compressedBytes": 5079079,
+      "expandedBytes": 13291520,
+      "entries": 305,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 305
+    },
+    {
+      "digest": "sha256:810e2b405a0884835290e120ef380aa14dd1f53198a0cfa2260147e736d82cd5",
+      "diffId": "sha256:2cef49adb7d7902c61ecdd385036e3c7fb7c9f0ada96a41901797c77b7daedd7",
+      "compressedBytes": 3079177,
+      "expandedBytes": 8038400,
+      "entries": 25,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 25
+    },
+    {
+      "digest": "sha256:bd8962e292918c50c90edebd9684c053bc386b9c5503acd8fec75d0c6f93a0b7",
+      "diffId": "sha256:c0e409312adc366898967307565f692bb33d43a439d3de48e27d14b742389725",
+      "compressedBytes": 372772,
+      "expandedBytes": 870400,
+      "entries": 17,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 17
+    },
+    {
+      "digest": "sha256:cac2ae0193cb073e7492050b05fc342a888651b4bbc966908c8793f889c299ba",
+      "diffId": "sha256:e4ba966d7f0527dfe0fcb559e4e18d4da42c4e6beae924719255e0dedb554ed0",
+      "compressedBytes": 96148,
+      "expandedBytes": 174080,
+      "entries": 18,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 18
+    },
+    {
+      "digest": "sha256:dd0d9bfd3bee080ad25a464362ec4f37ec5ca625695a4d7179fe69d207dc068d",
+      "diffId": "sha256:1f5d28bd51650f429293f7730ede274b81dc0744aa918bc887133c4ad610258c",
+      "compressedBytes": 158447,
+      "expandedBytes": 358400,
+      "entries": 14,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 14
+    },
+    {
+      "digest": "sha256:7cc70dfd88cf2327bb827123c9156f7cb95de95b2f98f3a7a931296aacec5786",
+      "diffId": "sha256:6e18ad80f3d64a8cbbcd1ff2e8a0d5ce7282cf664e816b86183a59d30a618e8a",
+      "compressedBytes": 901291,
+      "expandedBytes": 2662400,
+      "entries": 28,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 28
+    },
+    {
+      "digest": "sha256:8224d91da70b7992430d3b04040ea38ecdef4a7b719bee38397c89aaa886e198",
+      "diffId": "sha256:c16b2ec4b1493bad1b1de23d659c899e60abb166bda756d02792f0a03ba54a43",
+      "compressedBytes": 84214,
+      "expandedBytes": 194560,
+      "entries": 16,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 16
+    },
+    {
+      "digest": "sha256:1a4be5562d92d659f95e0b44b245ea5208bf5317481b9a351b07fad7fe5265ec",
+      "diffId": "sha256:7db505d90756626f425c6c5468eca565c82f589b144ecaa4f411ad9bbf79e614",
+      "compressedBytes": 51535,
+      "expandedBytes": 122880,
+      "entries": 14,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 14
+    },
+    {
+      "digest": "sha256:7255d342dc6c559165d8b6b21ec572b476d8e68ff47814aa5843ef5323e51929",
+      "diffId": "sha256:d99e6a7fc3457e2fe86160ade531b8036e86ad14e576e5c09d4e94da2e132ff6",
+      "compressedBytes": 43929705,
+      "expandedBytes": 124979200,
+      "entries": 4,
+      "digestAndDiffIdVerified": true,
+      "ustarEntries": 0,
+      "restrictedGnuEntries": 4
+    }
+  ],
+  "compressedBytes": 54609006,
+  "expandedBytes": 154107392,
+  "inspectedEntries": 1894,
+  "whiteoutsApplied": 0,
+  "packageDeclarations": [
+    {
+      "name": "base-files",
+      "version": "13.8+deb13u7",
+      "architecture": "amd64",
+      "metadataBytes": 734,
+      "metadataSha256": "e13087b841618232056233ebbb6602001a88d80e7cb4fc457e05aea4391d648a",
+      "copyrightParentKind": "directory",
+      "exactCopyrightDocumentPresent": true
+    },
+    {
+      "name": "ca-certificates",
+      "version": "20250419",
+      "architecture": "all",
+      "metadataBytes": 793,
+      "metadataSha256": "3f458b5dba442fcd79618e5f3f9c5dd24d0efca831ada4a28eeb746c4b6b6c6a",
+      "copyrightParentKind": "directory",
+      "exactCopyrightDocumentPresent": true
+    },
+    {
+      "name": "gcc-14-base",
+      "version": "14.2.0-19",
+      "architecture": "amd64",
+      "metadataBytes": 437,
+      "metadataSha256": "3ab3a11930c188172cc07ca122c7646b8d2c832e1403e37f993c53ceb838df28",
+      "copyrightParentKind": "directory",
+      "exactCopyrightDocumentPresent": true
+    },
+    {
+      "name": "libc6",
+      "version": "2.41-12+deb13u4",
+      "architecture": "amd64",
+      "metadataBytes": 1648,
+      "metadataSha256": "77d08ed11ba8db4ea027adfdaf1b84a64a3d233d065fd839ce0ec7b0f4d99bc1",
+      "copyrightParentKind": "directory",
+      "exactCopyrightDocumentPresent": true
+    },
+    {
+      "name": "libgcc-s1",
+      "version": "14.2.0-19",
+      "architecture": "amd64",
+      "metadataBytes": 591,
+      "metadataSha256": "4ba5fe45998229ab1aefccdec602b925977e53cc97bbb28fc12412ac165459fc",
+      "copyrightParentKind": "link",
+      "exactCopyrightDocumentPresent": false
+    },
+    {
+      "name": "libgomp1",
+      "version": "14.2.0-19",
+      "architecture": "amd64",
+      "metadataBytes": 517,
+      "metadataSha256": "106b14a05701bf88cadc607287ec1f3bcac81c2b2cc9ac018379dcfef4e288a4",
+      "copyrightParentKind": "link",
+      "exactCopyrightDocumentPresent": false
+    },
+    {
+      "name": "libssl3t64",
+      "version": "3.5.7-1~deb13u3",
+      "architecture": "amd64",
+      "metadataBytes": 850,
+      "metadataSha256": "2febb91c5ba0f976fc387ac45883cede2476889b7720aa7ae1881708d551bdfd",
+      "copyrightParentKind": "directory",
+      "exactCopyrightDocumentPresent": true
+    },
+    {
+      "name": "libstdc++6",
+      "version": "14.2.0-19",
+      "architecture": "amd64",
+      "metadataBytes": 759,
+      "metadataSha256": "b11c92c5307bf79ac50b489ee7bff067417b6e8b33d6d0c99da897d37e004c19",
+      "copyrightParentKind": "link",
+      "exactCopyrightDocumentPresent": false
+    },
+    {
+      "name": "libzstd1",
+      "version": "1.5.7+dfsg-1",
+      "architecture": "amd64",
+      "metadataBytes": 520,
+      "metadataSha256": "8a963d286e933559193528d86006b777d03e26973c38f7d74d733e832f914636",
+      "copyrightParentKind": "directory",
+      "exactCopyrightDocumentPresent": true
+    },
+    {
+      "name": "media-types",
+      "version": "13.0.0",
+      "architecture": "all",
+      "metadataBytes": 883,
+      "metadataSha256": "60e871d56cfcc834fe0a8d0436f98996e1bb196d3ddf8f2109d0f05266a816ce",
+      "copyrightParentKind": "directory",
+      "exactCopyrightDocumentPresent": true
+    },
+    {
+      "name": "netbase",
+      "version": "6.5",
+      "architecture": "all",
+      "metadataBytes": 484,
+      "metadataSha256": "1b44f4feb536c195a150c6b83001dfa016cb40f35ed1a5972248eddd8677a254",
+      "copyrightParentKind": "directory",
+      "exactCopyrightDocumentPresent": true
+    },
+    {
+      "name": "tzdata",
+      "version": "2026c-0+deb13u1",
+      "architecture": "all",
+      "metadataBytes": 764,
+      "metadataSha256": "8b6fc5270988a7e726b25f4951d357375a93f33f56d9f4662bc1888b214d5c61",
+      "copyrightParentKind": "directory",
+      "exactCopyrightDocumentPresent": true
+    },
+    {
+      "name": "tzdata-legacy",
+      "version": "2026c-0+deb13u1",
+      "architecture": "all",
+      "metadataBytes": 1408,
+      "metadataSha256": "2bad0a0af92242f51a04b52f78d9dde32049b0e37ca525e2c6f3bd7282c8f647",
+      "copyrightParentKind": "directory",
+      "exactCopyrightDocumentPresent": true
+    },
+    {
+      "name": "zlib1g",
+      "version": "1:1.3.dfsg+really1.3.1-1+b1",
+      "architecture": "amd64",
+      "metadataBytes": 581,
+      "metadataSha256": "34e862c1ccb0bac6c37bc7a6d165e8c9dd60d32f43daeffb9b1bd29377ca65ba",
+      "copyrightParentKind": "directory",
+      "exactCopyrightDocumentPresent": true
+    }
+  ],
+  "documents": [
+    {
+      "path": "nodejs/LICENSE",
+      "bytes": 145485,
+      "sha256": "c738ae413cf561f174e34f6961f8ca458aae2369a73640dda6234c629b98bcc4"
+    },
+    {
+      "path": "usr/share/common-licenses/AGPL-3.0",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "usr/share/common-licenses/Apache-2.0",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "usr/share/common-licenses/Artistic",
+      "bytes": 6321,
+      "sha256": "dd90d4f42e4dcadf5a7c09eea0189d93c7b37ae560c91f0f6d5233ed3b9292a2"
+    },
+    {
+      "path": "usr/share/common-licenses/Artistic-2.0",
+      "bytes": 8711,
+      "sha256": "5c29658b80a9cbb016dfe238ece8b86b5e63761355df8b872126d35bebce4303"
+    },
+    {
+      "path": "usr/share/common-licenses/BSD",
+      "bytes": 1499,
+      "sha256": "5d588eb3b157d52112afea935c88a7ff9efddc1e2d95a42c25d3b96ad9055008"
+    },
+    {
+      "path": "usr/share/common-licenses/BSL-1.0",
+      "bytes": 1338,
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+    },
+    {
+      "path": "usr/share/common-licenses/CC-BY-3.0",
+      "bytes": 19467,
+      "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    },
+    {
+      "path": "usr/share/common-licenses/CC-BY-4.0",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "usr/share/common-licenses/CC-BY-SA-3.0",
+      "bytes": 22240,
+      "sha256": "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+    },
+    {
+      "path": "usr/share/common-licenses/CC-BY-SA-4.0",
+      "bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    },
+    {
+      "path": "usr/share/common-licenses/CC0-1.0",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "usr/share/common-licenses/GFDL-1.1",
+      "bytes": 18101,
+      "sha256": "1040f0fffcf5a73398512aaa3f7cf89b7e4bb8feb13c661ad71184e015c7fcb6"
+    },
+    {
+      "path": "usr/share/common-licenses/GFDL-1.2",
+      "bytes": 20394,
+      "sha256": "2652c22ba086f92e55ae4a9f9c890ad4766ffd7814a73d318e22a597edf857a4"
+    },
+    {
+      "path": "usr/share/common-licenses/GFDL-1.3",
+      "bytes": 22955,
+      "sha256": "110535522396708cea37c72a802c5e7e81391139f5f7985631c93ef242b206a4"
+    },
+    {
+      "path": "usr/share/common-licenses/GPL-1",
+      "bytes": 12527,
+      "sha256": "49c007bafb5ad6dd9f9d4dae4d3ac0461975498150c05d684c551f0914ab486c"
+    },
+    {
+      "path": "usr/share/common-licenses/GPL-2",
+      "bytes": 17984,
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    {
+      "path": "usr/share/common-licenses/GPL-3",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "usr/share/common-licenses/LGPL-2",
+      "bytes": 25270,
+      "sha256": "cc535c21133c895b56b374c8a1dc1eb948d99003ed2b47372069456b62f42b24"
+    },
+    {
+      "path": "usr/share/common-licenses/LGPL-2.1",
+      "bytes": 26419,
+      "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+    },
+    {
+      "path": "usr/share/common-licenses/LGPL-3",
+      "bytes": 7652,
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+    },
+    {
+      "path": "usr/share/common-licenses/MPL-1.1",
+      "bytes": 25755,
+      "sha256": "f849fc26a7a99981611a3a370e83078deb617d12a45776d6c4cada4d338be469"
+    },
+    {
+      "path": "usr/share/common-licenses/MPL-2.0",
+      "bytes": 16726,
+      "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
+    },
+    {
+      "path": "usr/share/common-licenses/OFL-1.1",
+      "bytes": 4599,
+      "sha256": "1d361a8f8e8ce6e68457dcd93fb56e162e6baa3bbb7e7573a290d44399f6b57e"
+    },
+    {
+      "path": "usr/share/doc/base-files/copyright",
+      "bytes": 1696,
+      "sha256": "c84c664bce3a83eaa327bb9e354c0df588bc535b5e95474aab7ca3cce74937cd"
+    },
+    {
+      "path": "usr/share/doc/ca-certificates/copyright",
+      "bytes": 18940,
+      "sha256": "e85e1bcad3a915dc7e6f41412bc5bdeba275cadd817896ea0451f2140a93967c"
+    },
+    {
+      "path": "usr/share/doc/gcc-14-base/copyright",
+      "bytes": 69004,
+      "sha256": "20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79"
+    },
+    {
+      "path": "usr/share/doc/libc6/copyright",
+      "bytes": 51200,
+      "sha256": "f5788886720a2605a946e81d571e6c8162b09f58d2e2ceb8d36e5768fccd850d"
+    },
+    {
+      "path": "usr/share/doc/libssl3t64/copyright",
+      "bytes": 2543,
+      "sha256": "6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35"
+    },
+    {
+      "path": "usr/share/doc/libzstd1/copyright",
+      "bytes": 5332,
+      "sha256": "5cec9fef4d3fa7e0371fbef4ec3fc416e0105dc2a9922117f84e825cb11f50f8"
+    },
+    {
+      "path": "usr/share/doc/media-types/copyright",
+      "bytes": 268,
+      "sha256": "5ded7c53199b6a1d089b0b7e231d77e5c84081c7156b372b3f11ad9c1c2c5cc7"
+    },
+    {
+      "path": "usr/share/doc/netbase/copyright",
+      "bytes": 1234,
+      "sha256": "795b66147ea5ad692991caa7008ece551fb0fa88b9c53656223bd1518dc58ab2"
+    },
+    {
+      "path": "usr/share/doc/tzdata-legacy/copyright",
+      "bytes": 375,
+      "sha256": "cb61132bc0fc7b26ef5a82ee18b2fb644a1362f4f286ed980ff22e408471f59a"
+    },
+    {
+      "path": "usr/share/doc/tzdata/copyright",
+      "bytes": 375,
+      "sha256": "cb61132bc0fc7b26ef5a82ee18b2fb644a1362f4f286ed980ff22e408471f59a"
+    },
+    {
+      "path": "usr/share/doc/zlib1g/copyright",
+      "bytes": 2927,
+      "sha256": "9e5b96d63773a5d177ba264254390f792be07e41748ebd94730981c6cac31cc6"
+    }
+  ],
+  "unresolvedSelectedLinks": [
+    "etc/os-release",
+    "usr/share/common-licenses/GFDL",
+    "usr/share/common-licenses/GPL",
+    "usr/share/common-licenses/LGPL"
+  ],
+  "sharedCopyrightDocumentMappings": [
+    {
+      "package": "libgcc-s1",
+      "parentPath": "usr/share/doc/libgcc-s1",
+      "sourcePackage": "gcc-14-base",
+      "sourcePath": "usr/share/doc/gcc-14-base/copyright",
+      "documentBytes": 69004,
+      "documentSha256": "20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79",
+      "parentLinkMetadataSha256": "381c80b5db9febd79b261718b2159323ee2e94a49d618cb3b3de7bccb60c466a",
+      "mappingKind": "fixed-one-hop-public-archive-symlink",
+      "filesystemLinkFollowed": false,
+      "applicableLegalObligationsVerified": false
+    },
+    {
+      "package": "libgomp1",
+      "parentPath": "usr/share/doc/libgomp1",
+      "sourcePackage": "gcc-14-base",
+      "sourcePath": "usr/share/doc/gcc-14-base/copyright",
+      "documentBytes": 69004,
+      "documentSha256": "20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79",
+      "parentLinkMetadataSha256": "381c80b5db9febd79b261718b2159323ee2e94a49d618cb3b3de7bccb60c466a",
+      "mappingKind": "fixed-one-hop-public-archive-symlink",
+      "filesystemLinkFollowed": false,
+      "applicableLegalObligationsVerified": false
+    },
+    {
+      "package": "libstdc++6",
+      "parentPath": "usr/share/doc/libstdc++6",
+      "sourcePackage": "gcc-14-base",
+      "sourcePath": "usr/share/doc/gcc-14-base/copyright",
+      "documentBytes": 69004,
+      "documentSha256": "20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79",
+      "parentLinkMetadataSha256": "381c80b5db9febd79b261718b2159323ee2e94a49d618cb3b3de7bccb60c466a",
+      "mappingKind": "fixed-one-hop-public-archive-symlink",
+      "filesystemLinkFollowed": false,
+      "applicableLegalObligationsVerified": false
+    }
+  ],
+  "commonLicenseReferences": [
+    {
+      "source": "usr/share/doc/base-files/copyright",
+      "referencedPath": "usr/share/common-licenses/GPL-2",
+      "regularDocumentPresent": true,
+      "documentSha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/netbase/copyright",
+      "referencedPath": "usr/share/common-licenses/GPL-2",
+      "regularDocumentPresent": true,
+      "documentSha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/ca-certificates/copyright",
+      "referencedPath": "usr/share/common-licenses/GPL-2",
+      "regularDocumentPresent": true,
+      "documentSha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/libc6/copyright",
+      "referencedPath": "usr/share/common-licenses/GPL-2",
+      "regularDocumentPresent": true,
+      "documentSha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/libc6/copyright",
+      "referencedPath": "usr/share/common-licenses/GPL-3",
+      "regularDocumentPresent": true,
+      "documentSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/libc6/copyright",
+      "referencedPath": "usr/share/common-licenses/LGPL-2",
+      "regularDocumentPresent": true,
+      "documentSha256": "cc535c21133c895b56b374c8a1dc1eb948d99003ed2b47372069456b62f42b24",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/libc6/copyright",
+      "referencedPath": "usr/share/common-licenses/LGPL-2.1",
+      "regularDocumentPresent": true,
+      "documentSha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/libc6/copyright",
+      "referencedPath": "usr/share/common-licenses/LGPL-3",
+      "regularDocumentPresent": true,
+      "documentSha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/libssl3t64/copyright",
+      "referencedPath": "usr/share/common-licenses/Apache-2.0",
+      "regularDocumentPresent": true,
+      "documentSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/libssl3t64/copyright",
+      "referencedPath": "usr/share/common-licenses/Artistic",
+      "regularDocumentPresent": true,
+      "documentSha256": "dd90d4f42e4dcadf5a7c09eea0189d93c7b37ae560c91f0f6d5233ed3b9292a2",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/libssl3t64/copyright",
+      "referencedPath": "usr/share/common-licenses/GPL-1",
+      "regularDocumentPresent": true,
+      "documentSha256": "49c007bafb5ad6dd9f9d4dae4d3ac0461975498150c05d684c551f0914ab486c",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/libzstd1/copyright",
+      "referencedPath": "usr/share/common-licenses/GPL-2",
+      "regularDocumentPresent": true,
+      "documentSha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/gcc-14-base/copyright",
+      "referencedPath": "usr/share/common-licenses/GPL",
+      "regularDocumentPresent": false,
+      "documentSha256": null,
+      "namespaceKind": "link"
+    },
+    {
+      "source": "usr/share/doc/gcc-14-base/copyright",
+      "referencedPath": "usr/share/common-licenses/GPL-3",
+      "regularDocumentPresent": true,
+      "documentSha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/gcc-14-base/copyright",
+      "referencedPath": "usr/share/common-licenses/GFDL-1.2",
+      "regularDocumentPresent": true,
+      "documentSha256": "2652c22ba086f92e55ae4a9f9c890ad4766ffd7814a73d318e22a597edf857a4",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/gcc-14-base/copyright",
+      "referencedPath": "usr/share/common-licenses/Artistic",
+      "regularDocumentPresent": true,
+      "documentSha256": "dd90d4f42e4dcadf5a7c09eea0189d93c7b37ae560c91f0f6d5233ed3b9292a2",
+      "namespaceKind": "file"
+    },
+    {
+      "source": "usr/share/doc/gcc-14-base/copyright",
+      "referencedPath": "usr/share/common-licenses/GPL.",
+      "regularDocumentPresent": false,
+      "documentSha256": null,
+      "namespaceKind": "absent"
+    },
+    {
+      "source": "usr/share/doc/gcc-14-base/copyright",
+      "referencedPath": "usr/share/common-licenses/LGPL.",
+      "regularDocumentPresent": false,
+      "documentSha256": null,
+      "namespaceKind": "absent"
+    }
+  ],
+  "archiveLinkMappingsInspected": true,
+  "arbitraryLinkTargetsResolved": false,
+  "completeReferenceInventoryVerified": false,
+  "packagesWithExactCopyrightDocument": 11,
+  "nodeBinarySha256": "fde6a4bf8d0562f7751d1a2d6cb9b417c4cfe107bbcb0aa3e9a24e125e348f48",
+  "nodeLicenseDocumentPresent": true,
+  "archiveExtracted": false,
+  "linksFollowed": false,
+  "imageCodeExecuted": false,
+  "installedPackagesChanged": false,
+  "liveAwsImageBound": false,
+  "vulnerabilityScanPerformed": false,
+  "publisherSignatureVerified": false,
+  "applicableLegalObligationsVerified": false,
+  "completeDistributedNoticesVerified": false,
+  "readyForPublication": false
+}

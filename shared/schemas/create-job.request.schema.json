@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://global-market-ai.example/schemas/create-job.request.v1.json",
+  "title": "CreateJobRequest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["operation", "symbol", "locale"],
+  "properties": {
+    "operation": { "enum": ["PRICE", "ANALYZE"] },
+    "symbol": { "enum": ["VOO", "QLD", "TSLA", "SPCX", "GOOG"] },
+    "locale": { "enum": ["en", "ja", "ko"] }
+  }
+}

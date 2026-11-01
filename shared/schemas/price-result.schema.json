@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://global-market-ai.example/schemas/price-result.v1.json",
+  "title": "PriceResult",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["kind", "symbol", "price", "currency", "marketTimestamp", "retrievedAt", "marketState", "freshness", "source"],
+  "properties": {
+    "kind": { "const": "PRICE" },
+    "symbol": { "enum": ["VOO", "QLD", "TSLA", "SPCX", "GOOG"] },
+    "price": { "type": "number", "exclusiveMinimum": 0 },
+    "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "change": { "type": "number" },
+    "changePercent": { "type": "number" },
+    "marketTimestamp": { "type": "string", "format": "date-time" },
+    "retrievedAt": { "type": "string", "format": "date-time" },
+    "marketState": { "enum": ["OPEN", "CLOSED", "PRE_MARKET", "AFTER_HOURS", "UNKNOWN"] },
+    "freshness": { "enum": ["REAL_TIME", "DELAYED", "LATEST_AVAILABLE", "PREVIOUS_CLOSE"] },
+    "source": { "type": "string", "minLength": 1, "maxLength": 80, "pattern": "\\S" }
+  }
+}

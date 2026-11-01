@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1.0.0",
+  "assets": [
+    { "symbol": "VOO", "displayName": "Vanguard S&P 500 ETF", "type": "ETF", "providerValidationRequired": false },
+    { "symbol": "QLD", "displayName": "ProShares Ultra QQQ", "type": "LEVERAGED_ETF", "providerValidationRequired": false },
+    { "symbol": "TSLA", "displayName": "Tesla", "type": "STOCK", "providerValidationRequired": false },
+    { "symbol": "SPCX", "displayName": "SpaceX", "type": "STOCK", "providerValidationRequired": true },
+    { "symbol": "GOOG", "displayName": "Alphabet Inc. Class C", "type": "STOCK", "providerValidationRequired": false }
+  ]
+}

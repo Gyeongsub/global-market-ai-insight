@@ -1,0 +1,322 @@
+{
+  "evidenceDate": "2026-10-09",
+  "kind": "publisher-declaration-fingerprints-not-installed-or-legal-proof",
+  "lockfileSha256": "02493a22ca0ab337455d210a5f2ce421768cfa9bcb71e4e420e9e46593ddc2b6",
+  "publicRegistryRequests": 49,
+  "localInstalledDeclarations": 342,
+  "licenseExpressionCounts": {
+    "0BSD": 1,
+    "Apache-2.0": 55,
+    "BlueOak-1.0.0": 1,
+    "BSD-2-Clause": 7,
+    "BSD-3-Clause": 2,
+    "CC-BY-4.0": 1,
+    "CC0-1.0": 1,
+    "ISC": 11,
+    "MIT": 298,
+    "MPL-2.0": 13,
+    "Python-2.0": 1
+  },
+  "archiveDownloads": 0,
+  "packagesInstalled": 0,
+  "downloadedPackageCodeExecuted": false,
+  "awsCalls": 0,
+  "completeLegalProvenanceVerified": false,
+  "readyForPublication": false,
+  "declarations": [
+    {
+      "name": "@esbuild/aix-ppc64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "0a1b4f7e6fcdb141022128267338e71ede8d8226298bb9002a888fe86b69ed90"
+    },
+    {
+      "name": "@esbuild/android-arm",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "9cdc0dd3d9858671fd0c0c0020ed08782bb9d05a76c4684ed50072102fce92c4"
+    },
+    {
+      "name": "@esbuild/android-arm64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "5897baf30adedb4d521998c5d7d72a93c51a0a820f637d860a4840c1541b39b1"
+    },
+    {
+      "name": "@esbuild/android-x64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "be4c047adca1b6c4cf565be718fd69c7cd7f8e98c980cbfbf343f1d3a7c3978f"
+    },
+    {
+      "name": "@esbuild/darwin-arm64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "9b03e4268428bf01dd64361b839e52059aebbd6b74499ad7dbb2589543e5c221"
+    },
+    {
+      "name": "@esbuild/darwin-x64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "52c7437ce273986b04ee8d4bda4566b2ed783baba6b85d1306d47d6bed11a9e5"
+    },
+    {
+      "name": "@esbuild/freebsd-arm64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "f6bae4b314be2a483aa777223ebbfbb279d725f46b9f749ab65c417082e3de5a"
+    },
+    {
+      "name": "@esbuild/freebsd-x64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "9b767552379e0222226b322017fb75b4cd4325523f57868f1ca65c2b293c4f6d"
+    },
+    {
+      "name": "@esbuild/linux-arm",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "02a292ef399350c02cca0a7979fcabe91bd10b2efc2238e8713320b30f9029ce"
+    },
+    {
+      "name": "@esbuild/linux-arm64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "c49ede6c7e9c6781badb6b05600746c4519f150d8cc2b793895726c7708f8f07"
+    },
+    {
+      "name": "@esbuild/linux-ia32",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "d109ec7ab625dfdd2353964c045d75edcf2c7cd9afb6cc070e308d3903626c75"
+    },
+    {
+      "name": "@esbuild/linux-loong64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "345d89f424159bb43f96fff8f3aa2ec320df1d59f2cf44feea11eb06cdcb2b3e"
+    },
+    {
+      "name": "@esbuild/linux-mips64el",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "a25ec1772a663e5a6e43b5a3a206b8a67b0ebe1e1cd4fceca35960d94fe21e4d"
+    },
+    {
+      "name": "@esbuild/linux-ppc64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "cbbe50de6e7aebcc800a4d222c8ebb473938257b9d161ad2af62e484a2120a68"
+    },
+    {
+      "name": "@esbuild/linux-riscv64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "e1900c1d3b7eb5b0885e2129b64018d9223724b6f7a099949a9a8f4f3addf842"
+    },
+    {
+      "name": "@esbuild/linux-s390x",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "05a2870a5d72a75710edee15b6cb1011773214d427bd88f3ad9504cbc5418459"
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "452f9e60e2947cdde5a8fc53b67ff8c06966565324fa13a47920f0a33b0e0299"
+    },
+    {
+      "name": "@esbuild/netbsd-arm64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "46fc17d1417c5d79e8c0928587c406812ca6ab424de5d9cf86d3addefc569a37"
+    },
+    {
+      "name": "@esbuild/netbsd-x64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "7c3f474181d938a26525594542a0a32b38541ebc24b2d4eb73d3f6a7eb5770af"
+    },
+    {
+      "name": "@esbuild/openbsd-arm64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "aa164f39fa1ca7a5e091aa45f0b6df34fa1bb54b3f5757636d7f6d2db72f8524"
+    },
+    {
+      "name": "@esbuild/openbsd-x64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "5c3b1b26e0b9d139466302c8a545cdae73b6a5c94a8253a52e63bfa9d83638a5"
+    },
+    {
+      "name": "@esbuild/openharmony-arm64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "fc6127962b4d2ada6baa28902ceb66e2d23d3268afd34a2072b2fbfaa6490806"
+    },
+    {
+      "name": "@esbuild/sunos-x64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "69f3beeefc4b58f9a6d52875f29ae85f1e3de4e73d3ef425248f830e15c2740c"
+    },
+    {
+      "name": "@esbuild/win32-arm64",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "81fee1b41d520689588d2a50196e3699163ef63f3f2ce445f83721c2541572cf"
+    },
+    {
+      "name": "@esbuild/win32-ia32",
+      "version": "0.28.1",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "233b3d76d2a275611dbf1261025e811e438de60d2fdf7971f7ed392e971d93d2"
+    },
+    {
+      "name": "@rolldown/binding-android-arm64",
+      "version": "1.2.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "315282c0bbb78758981e1cc66f18a209c19826e7ca67eaf285dd22d6e6fabfb6"
+    },
+    {
+      "name": "@rolldown/binding-darwin-arm64",
+      "version": "1.2.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "8e7813b5a65be2b7f3a6c89f308d7a94d0069d864b20676b07dedc15ec2c66d9"
+    },
+    {
+      "name": "@rolldown/binding-darwin-x64",
+      "version": "1.2.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "d8e7caeee3928fc6009a6fc9aa4eb6c408338c85ece18f27cf6d64adc021a290"
+    },
+    {
+      "name": "@rolldown/binding-freebsd-x64",
+      "version": "1.2.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "4bce4172763e577896bce17f81149df571b77e6bee4a0046512fe7780c7aa985"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm-gnueabihf",
+      "version": "1.2.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "8c75d24b9f03c1e47e6cbbc72dcba2ae601129d396b367a63568a213889011c4"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-gnu",
+      "version": "1.2.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "d130d1934a3b8ebc907395082f09c87e607bbf33389c38de00a16690c824165a"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-musl",
+      "version": "1.2.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "60ebd3d238c5159bd18ca3c63dd68a88218b3b28da1b791913c3078046d3c775"
+    },
+    {
+      "name": "@rolldown/binding-linux-ppc64-gnu",
+      "version": "1.2.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "45a189124cc58c40db889c8ac3bde30048c21594c93a43d895880d4d0bf87f33"
+    },
+    {
+      "name": "@rolldown/binding-linux-s390x-gnu",
+      "version": "1.2.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "14459e17c74b5202ec1f8a6d6617e38cb862d29a7e8d35570b6689d006953414"
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.2.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "6cb39edf164be938717f0290a50907a244455bff0c10a63ac202346c1fb1ed49"
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-musl",
+      "version": "1.2.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "d64753138de37090ced13f5eb110b0bdf201b27f51721ad05936b9a217d2b4f0"
+    },
+    {
+      "name": "@rolldown/binding-openharmony-arm64",
+      "version": "1.2.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "a97da3b28d830aba0717ab2e9be582074e99fb68cf619d56e2aba989d1def4cc"
+    },
+    {
+      "name": "@rolldown/binding-win32-arm64-msvc",
+      "version": "1.2.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "42a96e319eaaf39e571b0487aba86b48bc5a8c9b7978709c46d64e464b1c0733"
+    },
+    {
+      "name": "fsevents",
+      "version": "2.3.3",
+      "licenseExpression": "MIT",
+      "publicMetadataSha256": "b9f892b7d399e73de65849e3647094e648ff91c0a03e4460ac0fdcd335df2704"
+    },
+    {
+      "name": "lightningcss-android-arm64",
+      "version": "1.33.0",
+      "licenseExpression": "MPL-2.0",
+      "publicMetadataSha256": "31209b68d852b26a2838d6c4ca89b098080ea846163de8bee905dd89534f594a"
+    },
+    {
+      "name": "lightningcss-darwin-arm64",
+      "version": "1.33.0",
+      "licenseExpression": "MPL-2.0",
+      "publicMetadataSha256": "62bf949225e02670001fe74556d0ae34ab9017cfd46899353f0e75cf50d94406"
+    },
+    {
+      "name": "lightningcss-darwin-x64",
+      "version": "1.33.0",
+      "licenseExpression": "MPL-2.0",
+      "publicMetadataSha256": "6cf2078a08e590ebf4f89c0c69e76fbd6fe97092fe690fe63df121a135dfb0e3"
+    },
+    {
+      "name": "lightningcss-freebsd-x64",
+      "version": "1.33.0",
+      "licenseExpression": "MPL-2.0",
+      "publicMetadataSha256": "18307beb5b803fa96b6a8deef06ec03e9cf457f3f36f38bf0c7dadf37263a0fa"
+    },
+    {
+      "name": "lightningcss-linux-arm-gnueabihf",
+      "version": "1.33.0",
+      "licenseExpression": "MPL-2.0",
+      "publicMetadataSha256": "d7ed80c0c551c60f45b5690ab82450030a88169621e0896ee1bec8bf98fd86e4"
+    },
+    {
+      "name": "lightningcss-linux-arm64-gnu",
+      "version": "1.33.0",
+      "licenseExpression": "MPL-2.0",
+      "publicMetadataSha256": "f3fd14f4a9e8f41c632aa2b4a5ae2cf408cdda0cf9c8172884005c9c2b2e31ca"
+    },
+    {
+      "name": "lightningcss-linux-arm64-musl",
+      "version": "1.33.0",
+      "licenseExpression": "MPL-2.0",
+      "publicMetadataSha256": "a808ed304bc4f3fdc75688195acbd0122bfcf04d0ca511e565501050a38df72e"
+    },
+    {
+      "name": "lightningcss-linux-x64-gnu",
+      "version": "1.33.0",
+      "licenseExpression": "MPL-2.0",
+      "publicMetadataSha256": "9778561c17f398493ba26bc9600b9ab46fba051779eb468045e42cdad52da20f"
+    },
+    {
+      "name": "lightningcss-linux-x64-musl",
+      "version": "1.33.0",
+      "licenseExpression": "MPL-2.0",
+      "publicMetadataSha256": "8180ca59e377854f135b68469a25055fb9d875bf99b155ddaa1cc28efa29a7c0"
+    },
+    {
+      "name": "lightningcss-win32-arm64-msvc",
+      "version": "1.33.0",
+      "licenseExpression": "MPL-2.0",
+      "publicMetadataSha256": "6e57aa3e476d4fb7031b0ead212f4315485bd8d8cb69f3daa1c5313fbde0bb14"
+    }
+  ]
+}

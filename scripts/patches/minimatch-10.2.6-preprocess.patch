@@ -1,0 +1,44 @@
+diff --git a/dist/commonjs/index.js b/dist/commonjs/index.js
+--- a/dist/commonjs/index.js
++++ b/dist/commonjs/index.js
+@@ -455,4 +455,5 @@
+     firstPhasePreProcess(globParts) {
++        const { braceExpandMax = 100000 } = this.options;
+         let didSomething = false;
+         do {
+             didSomething = false;
+@@ -483,5 +484,6 @@
+                         !p2 ||
+                         p2 === '.' ||
+-                        p2 === '..') {
++                        p2 === '..' ||
++                        globParts.length >= braceExpandMax) {
+                         continue;
+                     }
+@@ -539,3 +541,4 @@
+     secondPhasePreProcess(globParts) {
++        if (globParts.length > 1000) return globParts;
+         for (let i = 0; i < globParts.length - 1; i++) {
+             for (let j = i + 1; j < globParts.length; j++) {
+diff --git a/dist/esm/index.js b/dist/esm/index.js
+--- a/dist/esm/index.js
++++ b/dist/esm/index.js
+@@ -445,4 +445,5 @@
+     firstPhasePreProcess(globParts) {
++        const { braceExpandMax = 100000 } = this.options;
+         let didSomething = false;
+         do {
+             didSomething = false;
+@@ -473,5 +474,6 @@
+                         !p2 ||
+                         p2 === '.' ||
+-                        p2 === '..') {
++                        p2 === '..' ||
++                        globParts.length >= braceExpandMax) {
+                         continue;
+                     }
+@@ -529,3 +531,4 @@
+     secondPhasePreProcess(globParts) {
++        if (globParts.length > 1000) return globParts;
+         for (let i = 0; i < globParts.length - 1; i++) {
+             for (let j = i + 1; j < globParts.length; j++) {

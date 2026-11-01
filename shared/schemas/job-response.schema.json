@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://global-market-ai.example/schemas/job-response.v1.json",
+  "title": "PublicJobResponse",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["jobId", "operation", "symbol", "locale", "status", "createdAt", "updatedAt", "expiresAt", "schemaVersion"],
+  "properties": {
+    "jobId": { "type": "string", "pattern": "^[A-Za-z0-9_-]{16,64}$" },
+    "operation": { "enum": ["PRICE", "ANALYZE"] },
+    "symbol": { "enum": ["VOO", "QLD", "TSLA", "SPCX", "GOOG"] },
+    "locale": { "enum": ["en", "ja", "ko"] },
+    "status": { "enum": ["QUEUED", "RUNNING", "SUCCEEDED", "FAILED", "TIMED_OUT"] },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "expiresAt": { "type": "string", "format": "date-time" },
+    "schemaVersion": { "const": "1.0.0" },
+    "result": {
+      "oneOf": [
+        { "$ref": "./price-result.schema.json" },
+        { "$ref": "./analysis-result.schema.json" }
+      ]
+    },
+    "errorCode": { "type": "string", "pattern": "^[A-Z][A-Z0-9_]{2,63}$" },
+    "errorMessage": { "type": "string", "minLength": 1, "maxLength": 300 }
+  }
+}

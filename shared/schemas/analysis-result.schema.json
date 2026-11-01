@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://global-market-ai.example/schemas/analysis-result.v1.json",
+  "title": "AnalysisResult",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["kind", "symbol", "locale", "summary", "observations", "opportunities", "risks", "specialConsiderations", "uncertainty", "dataAsOf", "modelId", "promptVersion", "disclaimer"],
+  "properties": {
+    "kind": { "const": "ANALYSIS" },
+    "symbol": { "enum": ["VOO", "QLD", "TSLA", "SPCX", "GOOG"] },
+    "locale": { "enum": ["en", "ja", "ko"] },
+    "summary": { "type": "string", "minLength": 1, "maxLength": 1200, "pattern": "\\S" },
+    "observations": { "type": "array", "maxItems": 5, "items": { "type": "string", "minLength": 1, "maxLength": 500, "pattern": "\\S" } },
+    "opportunities": { "type": "array", "maxItems": 5, "items": { "type": "string", "minLength": 1, "maxLength": 500, "pattern": "\\S" } },
+    "risks": { "type": "array", "minItems": 1, "maxItems": 5, "items": { "type": "string", "minLength": 1, "maxLength": 500, "pattern": "\\S" } },
+    "specialConsiderations": { "type": "array", "maxItems": 5, "items": { "type": "string", "minLength": 1, "maxLength": 500, "pattern": "\\S" } },
+    "uncertainty": { "type": "string", "minLength": 1, "maxLength": 800, "pattern": "\\S" },
+    "dataAsOf": { "type": "string", "format": "date-time" },
+    "modelId": { "type": "string", "minLength": 1, "maxLength": 120, "pattern": "\\S" },
+    "promptVersion": { "type": "string", "const": "grounded-v1" },
+    "disclaimer": { "type": "string", "minLength": 20, "maxLength": 500 }
+  }
+}

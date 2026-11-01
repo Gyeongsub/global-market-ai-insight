@@ -1,0 +1,17 @@
+{
+  "operation": "ANALYZE",
+  "symbol": "QLD",
+  "locale": "ko",
+  "quote": {
+    "symbol": "QLD",
+    "price": 138.17,
+    "currency": "USD",
+    "marketTimestamp": "2026-08-07T20:00:00Z",
+    "retrievedAt": "2026-08-08T00:00:00Z",
+    "marketState": "CLOSED",
+    "freshness": "LATEST_AVAILABLE",
+    "source": "local-contract-fixture",
+    "change": 1.64,
+    "changePercent": 1.21
+  }
+}

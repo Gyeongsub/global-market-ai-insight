@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://global-market-ai.example/schemas/job.v1.json",
+  "title": "Job",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["jobId", "operation", "symbol", "locale", "status", "idempotencyKeyHash", "requestHash", "createdAt", "updatedAt", "deadlineAt", "expiresAt", "attemptCount", "version", "schemaVersion"],
+  "properties": {
+    "jobId": { "type": "string", "minLength": 16, "maxLength": 64 },
+    "operation": { "enum": ["PRICE", "ANALYZE"] },
+    "symbol": { "enum": ["VOO", "QLD", "TSLA", "SPCX", "GOOG"] },
+    "locale": { "enum": ["en", "ja", "ko"] },
+    "status": { "enum": ["QUEUED", "RUNNING", "SUCCEEDED", "FAILED", "TIMED_OUT"] },
+    "idempotencyKeyHash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "requestHash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "deadlineAt": { "type": "string", "format": "date-time" },
+    "expiresAt": { "type": "integer", "minimum": 0 },
+    "attemptCount": { "type": "integer", "minimum": 0, "maximum": 3 },
+    "version": { "type": "integer", "minimum": 1 },
+    "schemaVersion": { "const": "1.0.0" },
+    "result": { "type": "object" },
+    "errorCode": { "type": "string" },
+    "errorMessage": { "type": "string", "maxLength": 300 }
+  }
+}

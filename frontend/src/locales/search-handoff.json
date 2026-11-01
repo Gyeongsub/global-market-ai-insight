@@ -1,0 +1,50 @@
+{
+  "en": {
+    "skipLink": "Skip to question preparation",
+    "awsTitle": "Real AWS practice — synthetic analysis", "awsBody": "A separate protected local session sends invented QLD data to Amazon Bedrock and displays the validated result in your browser. This is real AWS inference, not real market data. ChatGPT search above is unchanged.", "awsOpen": "Open AWS synthetic analysis lab", "awsLimit": "Start the short-lived lab server first; this link does not start it. One paid model attempt per session, no retries, maximum 5 minutes. No new account or market-data API. The existing AWS-flow simulation above remains offline.",
+    "language": "Language", "eyebrow": "PERSONAL RESEARCH · NO API CONNECTION", "title": "Ask better questions. Explore in ChatGPT.",
+    "intro": "Choose a symbol and prepare a search question here. Copy it, open ChatGPT, then paste and send it yourself. Answers and source links stay in ChatGPT.",
+    "asset": "1. Choose a symbol", "intent": "2. Choose your question", "price": "Latest available price", "analysis": "Educational market overview",
+    "prompt": "3. Review and copy your question", "copy": "Copy question", "copied": "Question copied. Paste and send it in ChatGPT.", "copyFailed": "Automatic copy is unavailable. Select the text in the question box and copy it manually.", "copying": "Copying…",
+    "open": "4. Open ChatGPT (new tab)", "privacy": "Opening ChatGPT does not send this question. Copying only puts this visible text on your clipboard, replacing its previous text. No AWS credentials, API keys or portfolio holdings are included.",
+    "limits": "This is not a live price feed. ChatGPT search availability and usage limits depend on your account. Search may use different sources, not only Google; check citations and quote timestamps. This page does not receive the answer.",
+    "uncertain": "SPCX · identity must be verified", "disclaimer": "Educational research only, not financial advice. Do not add passwords, API keys or private account information to your question.",
+    "labTitle": "AWS learning lab — separate from search", "labBody": "The existing AWS architecture is retained for private learning. The optional screen below is a local synthetic simulation, not live AWS or market data. Opening it does not start cloud workers.",
+    "labOpen": "Open local AWS-flow simulation", "labBack": "Back to ChatGPT search preparation", "notices": "Third-party notices",
+    "template": "Search the web for current information about {symbol}. Answer in English.\n{intent}\nFirst verify the exact security, issuer and exchange using reliable sources. For SPCX, do not assume it means SpaceX or substitute another ticker. If identity or data cannot be verified, say DATA_UNAVAILABLE and explain.\nFor any price, include currency, price timestamp and timezone, market session, and whether it is real-time, delayed or a previous close. Do not label it live unless the source establishes that.\nInclude clickable source links and distinguish source facts, interpretation and uncertainty. If web search or fresh data is unavailable, say so; do not invent prices or citations. Educational information only, not personalized investment advice.",
+    "priceTask": "Find the latest verifiable available price, with its source and observation time.",
+    "analysisTask": "Summarize recent market context and risks using cited information. Distinguish facts from interpretation; do not recommend buying or selling. For QLD, explain daily reset and leveraged-product risks."
+  },
+  "ja": {
+    "skipLink": "質問の準備に移動",
+    "awsTitle": "実際のAWS実習 — 合成データ分析", "awsBody": "保護されたローカルセッションが架空のQLDデータをAmazon Bedrockに送信し、検証済み結果をブラウザに表示します。実際のAWS推論ですが市場データではありません。上のChatGPT検索は変更しません。", "awsOpen": "AWS合成データ分析ラボを開く", "awsLimit": "先に短時間のラボサーバーを起動してください。このリンクはサーバーを起動しません。1セッション1回の有料推論、再試行なし、最大5分。追加登録や市場データAPIなし。上の模擬画面は引き続きオフラインです。",
+    "language": "言語", "eyebrow": "個人用リサーチ · API接続なし", "title": "質問を準備して、ChatGPTで調べる。",
+    "intro": "銘柄と質問の種類を選び、質問をコピーしてください。ChatGPTを開いて自分で貼り付け・送信し、回答と出典はChatGPT画面で確認します。",
+    "asset": "1. ティッカーを選択", "intent": "2. 質問の種類", "price": "最新の確認可能な価格", "analysis": "学習用の市場概要",
+    "prompt": "3. 質問を確認してコピー", "copy": "質問をコピー", "copied": "コピーしました。ChatGPTに貼り付けて送信してください。", "copyFailed": "自動コピーできません。質問欄の文章を選択し、手動でコピーしてください。", "copying": "コピー中…",
+    "open": "4. ChatGPTを開く（新しいタブ）", "privacy": "ChatGPTを開くだけでは質問は送信されません。コピーすると表示中の文章だけがクリップボードの内容を置き換えます。AWS認証情報、APIキー、保有資産情報は含みません。",
+    "limits": "リアルタイム価格配信ではありません。検索の利用可否・上限はChatGPTアカウントによります。検索先はGoogleに限定されません。出典と価格の日時を確認してください。このページに回答は戻りません。",
+    "uncertain": "SPCX · 銘柄の確認が必要", "disclaimer": "学習目的の調査であり、金融助言ではありません。パスワード、APIキー、個人の口座情報を質問に追加しないでください。",
+    "labTitle": "AWS学習ラボ — 検索とは別の機能", "labBody": "既存のAWS構成は非公開の学習用に維持します。以下の画面はローカルの合成データによる模擬動作で、実際のAWSや市場データではありません。開いてもクラウドのワーカーは起動しません。",
+    "labOpen": "ローカルAWSフロー模擬画面を開く", "labBack": "ChatGPT検索の準備に戻る", "notices": "第三者ソフトウェアの表記",
+    "template": "{symbol}について、ウェブ検索で現在の情報を調べ、日本語で回答してください。\n{intent}\nまず信頼できる出典で正式な銘柄・発行体・取引所を確認してください。SPCXをSpaceXと決めつけたり別のティッカーに置き換えたりしないでください。確認できない場合はDATA_UNAVAILABLEと明記し、理由を説明してください。\n価格には通貨、価格の日時・タイムゾーン、取引時間区分、リアルタイム・遅延・前日終値の区別を付けてください。出典で確認できない価格をリアルタイムと呼ばないでください。\n出典リンクを示し、事実・解釈・不確実性を分けてください。検索や新しいデータが利用できなければ明記し、価格や出典を創作しないでください。学習用情報とし、個別の投資助言はしないでください。",
+    "priceTask": "出典と観測日時を伴う、最新の検証可能な価格を調べてください。",
+    "analysisTask": "出典に基づいて最近の市場動向とリスクを要約してください。事実と解釈を分け、売買を推奨しないでください。QLDでは日次リセットとレバレッジ商品のリスクも説明してください。"
+  },
+  "ko": {
+    "skipLink": "질문 준비 영역으로 건너뛰기",
+    "awsTitle": "실제 AWS 실습 — 합성 데이터 분석", "awsBody": "보호된 로컬 세션에서 만들어낸 QLD 데이터를 Amazon Bedrock으로 보내고, 검증한 결과를 웹 화면에 표시합니다. 실제 AWS 추론이지만 실제 시세는 아닙니다. 위의 ChatGPT 검색 기능은 그대로 유지합니다.", "awsOpen": "AWS 합성 데이터 분석 실습 열기", "awsLimit": "단기 실습 서버를 먼저 시작해야 합니다. 이 링크가 서버를 시작하지는 않습니다. 세션당 유료 모델 시도 1회·재시도 없음·최대 5분입니다. 추가 가입이나 시세 API는 필요 없으며, 위의 모의 화면은 계속 오프라인입니다.",
+    "language": "언어", "eyebrow": "개인 리서치 · API 연결 없음", "title": "질문을 준비하고, ChatGPT에서 확인하세요.",
+    "intro": "종목과 질문 종류를 선택해 질문을 복사하세요. ChatGPT를 열어 직접 붙여넣고 전송하면, 답변과 출처를 ChatGPT 화면에서 확인할 수 있습니다.",
+    "asset": "1. 종목 선택", "intent": "2. 질문 종류", "price": "최신 확인 가능한 가격", "analysis": "학습용 시장 개요",
+    "prompt": "3. 질문 확인 및 복사", "copy": "질문 복사", "copied": "복사했습니다. ChatGPT에 붙여넣고 직접 전송하세요.", "copyFailed": "자동 복사를 사용할 수 없습니다. 질문 상자의 내용을 선택해 직접 복사해 주세요.", "copying": "복사 중…",
+    "open": "4. ChatGPT 열기 (새 탭)", "privacy": "ChatGPT를 여는 것만으로 질문이 전송되지는 않습니다. 복사하면 화면의 질문만 클립보드의 기존 내용을 대체합니다. AWS 인증정보, API 키, 보유 자산 정보는 포함하지 않습니다.",
+    "limits": "실시간 시세 서비스가 아닙니다. 검색 가능 여부와 사용 한도는 ChatGPT 계정에 따라 다릅니다. Google만을 검색한다고 보장하지 않으며, 출처와 가격 기준 시각을 확인해야 합니다. 답변은 이 페이지로 돌아오지 않습니다.",
+    "uncertain": "SPCX · 종목 식별 확인 필요", "disclaimer": "학습 목적의 조사이며 금융 자문이 아닙니다. 질문에 비밀번호, API 키, 개인 계좌 정보를 추가하지 마세요.",
+    "labTitle": "AWS 학습실 — 검색과 분리", "labBody": "기존 AWS 구조는 본인 전용 학습용으로 유지합니다. 아래 화면은 로컬 합성 데이터로 동작하는 모의 실습이며 실제 AWS나 시세가 아닙니다. 열어도 클라우드 작업이 시작되지 않습니다.",
+    "labOpen": "로컬 AWS 흐름 모의 화면 열기", "labBack": "ChatGPT 검색 준비로 돌아가기", "notices": "제3자 소프트웨어 고지",
+    "template": "{symbol}에 대해 웹 검색으로 현재 정보를 조사하고 한국어로 답해주세요.\n{intent}\n먼저 신뢰할 수 있는 출처로 정확한 종목, 발행사, 거래소를 확인하세요. SPCX를 SpaceX라고 단정하거나 다른 티커로 대체하지 마세요. 종목이나 데이터를 확인할 수 없다면 DATA_UNAVAILABLE과 이유를 명시하세요.\n가격을 제시할 때 통화, 가격 기준 시각과 시간대, 거래 세션, 실시간·지연·직전 종가 여부를 밝혀주세요. 출처에서 확인되지 않으면 실시간이라고 표시하지 마세요.\n클릭 가능한 출처 링크를 포함하고 사실·해석·불확실성을 구분하세요. 웹 검색이나 최신 데이터를 이용할 수 없다면 이를 명시하고 가격이나 출처를 만들지 마세요. 교육용 정보만 제공하고 개인화된 투자 조언은 하지 마세요.",
+    "priceTask": "출처와 관측 시각을 확인할 수 있는 가장 최신 가용 가격을 조사해 주세요.",
+    "analysisTask": "출처를 근거로 최근 시장 상황과 위험을 요약해 주세요. 사실과 해석을 구분하고 매수·매도를 권하지 마세요. QLD는 일일 재설정과 레버리지 상품의 위험도 설명해 주세요."
+  }
+}

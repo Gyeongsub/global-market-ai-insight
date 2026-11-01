@@ -1,0 +1,20 @@
+{
+  "environment": "dev",
+  "region": "ap-northeast-1",
+  "projectName": "global-market-ai-insight",
+  "owner": "portfolio-developer",
+  "bedrockModelAlias": "nova-lite-candidate",
+  "bedrockModelId": "amazon.nova-lite-v1:0",
+  "providerApiKeyParameterName": "/global-market-ai-insight/dev/market-data/api-key",
+  "marketDataUsageMode": "internal-development-only",
+  "enablePublicLiveQuotes": false,
+  "jobTimeoutSeconds": 90,
+  "jobTtlDays": 7,
+  "logRetentionDays": 7,
+  "maxActiveJobs": 2,
+  "maxJobsPerMinute": 2,
+  "bedrockMaxOutputTokens": 512,
+  "enableNatGateway": false,
+  "enableAlb": false,
+  "enableEcsService": false
+}

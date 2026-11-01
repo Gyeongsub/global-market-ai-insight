@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://global-market-ai.example/schemas/accepted-job.v1.json",
+  "title": "AcceptedJob",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["jobId", "status", "statusUrl", "expiresAt"],
+  "properties": {
+    "jobId": { "type": "string", "pattern": "^[A-Za-z0-9_-]{16,64}$" },
+    "status": { "enum": ["QUEUED", "RUNNING", "SUCCEEDED", "FAILED", "TIMED_OUT"] },
+    "statusUrl": { "type": "string", "pattern": "^/v1/jobs/[A-Za-z0-9_-]{16,64}$" },
+    "expiresAt": { "type": "string", "format": "date-time" }
+  }
+}

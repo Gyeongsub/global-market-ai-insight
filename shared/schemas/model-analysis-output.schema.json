@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://global-market-ai.example/schemas/model-analysis-output.v2.json",
+  "title": "Strict model analysis output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "summary",
+    "observations",
+    "opportunities",
+    "risks",
+    "specialConsiderations",
+    "uncertainty"
+  ],
+  "properties": {
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 240
+    },
+    "observations": {
+      "$ref": "#/$defs/compactStringList"
+    },
+    "opportunities": {
+      "$ref": "#/$defs/compactStringList"
+    },
+    "risks": {
+      "allOf": [
+        { "$ref": "#/$defs/compactStringList" },
+        { "minItems": 1 }
+      ]
+    },
+    "specialConsiderations": {
+      "$ref": "#/$defs/compactStringList"
+    },
+    "uncertainty": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 240
+    }
+  },
+  "$defs": {
+    "compactStringList": {
+      "type": "array",
+      "maxItems": 2,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 180
+      }
+    }
+  }
+}
